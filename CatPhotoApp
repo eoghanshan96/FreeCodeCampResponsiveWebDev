@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- HTML document declaration and language setting -->
+
+  <head>
+    <title>CatPhotoApp</title> <!-- Setting the title of the webpage -->
+  </head>
+
+  <body>
+    <main> <!-- Main content section begins -->
+
+      <h1>CatPhotoApp</h1> <!-- Main heading for the CatPhotoApp -->
+
+      <section>
+        <h2>Cat Photos</h2> <!-- Section for cat photos with a heading -->
+
+        <!-- Link to cat photos with a "TODO" comment -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+
+        <!-- Image link to a cute cat photo -->
+        <a href="https://freecatphotoapp.com">
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+        </a>
+      </section>
+
+      <section>
+        <h2>Cat Lists</h2> <!-- Section for cat lists with a heading -->
+
+        <h3>Things cats love:</h3> <!-- Subheading for a list of things cats love -->
+        <ul> <!-- Unordered list of things cats love -->
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+
+        <figure> <!-- Figure for an image and caption -->
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption> <!-- Caption for the image -->
+        </figure>
+
+        <h3>Top 3 things cats hate:</h3> <!-- Subheading for a list of things cats hate -->
+        <ol> <!-- Ordered list of things cats hate -->
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+
+        <figure> <!-- Figure for an image and caption -->
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption> <!-- Caption for the image -->
+        </figure>
+      </section>
+
+      <section>
+        <h2>Cat Form</h2> <!-- Section for a cat-related form with a heading -->
+
+        <form action="https://freecatphotoapp.com/submit-cat-photo"> <!-- Form for submitting cat photos -->
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend> <!-- Legend for a group of radio buttons -->
+            <label>
+              <input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor
+            </label>
+            <label>
+              <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>What's your cat's personality?</legend> <!-- Legend for a group of checkboxes -->
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required> <!-- Text input for cat photo URL -->
+          <button type="submit">Submit</button> <!-- Submit button for the form -->
+        </form>
+      </section>
+
+    </main> <!-- Main content section ends -->
+
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
